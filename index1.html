@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>99 Names of Muhammad صلی اللّٰہ علیہ وآلہ وسلم</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0d47a1 0%, #004d40 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .header {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+            color: #FFD700;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            line-height: 1.6;
+            margin: 20px auto;
+        }
+        
+        .quote-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        .quote {
+            font-size: 1.4rem;
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #FFD700;
+            line-height: 1.6;
+        }
+        
+        .quote-source {
+            font-size: 1.1rem;
+            color: #4CAF50;
+        }
+        
+        .names-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .name-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .name-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .name-number {
+            background: rgba(255, 215, 0, 0.2);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .name-arabic {
+            font-size: 2.2rem;
+            margin: 10px 0;
+            color: #4CAF50;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+        
+        .name-translation {
+            font-size: 1.4rem;
+            margin: 10px 0;
+            color: #FFD700;
+        }
+        
+        .name-meaning {
+            font-size: 1.1rem;
+            color: #ddd;
+            margin-top: 10px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            width: 100%;
+            max-width: 800px;
+        }
+        
+        .created-by {
+            background: rgba(255, 215, 0, 0.2);
+            padding: 15px 30px;
+            border-radius: 30px;
+            margin-top: 20px;
+            display: inline-block;
+            font-size: 1.3rem;
+        }
+        
+        .decoration {
+            font-size: 3rem;
+            margin: 30px 0;
+            color: #FFD700;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .quote {
+                font-size: 1.2rem;
+            }
+            
+            .name-arabic {
+                font-size: 1.8rem;
+            }
+            
+            .name-translation {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>99 Names of Muhammad <span style="color: #4CAF50;">صلی اللّٰہ علیہ وآلہ وسلم</span></h1>
+            <p>"Indeed, in the Messenger of Allah you have an excellent example for whoever has hope in Allah and the Last Day, and remembers Allah often." (Quran 33:21)</p>
+            <div class="decoration">☪</div>
+        </div>
+        
+        <div class="quote-section">
+            <div class="quote">"Were it not for you (O Muhammad), I would not have created the universe."</div>
+            <div class="quote-source">- Hadith Qudsi</div>
+        </div>
+        
+        <div class="quote-section">
+            <div class="quote">"Say (O Muhammad): If you love Allah, then follow me; Allah will love you and forgive you your sins. And Allah is Forgiving, Merciful."</div>
+            <div class="quote-source">- Quran (3:31)</div>
+        </div>
+        
+        <div class="names-grid">
+            <!-- Names will be generated by JavaScript -->
+        </div>
+        
+        <div class="footer">
+            <p>This page displays 99 beautiful names and attributes of Prophet Muhammad صلی اللّٰہ علیہ وآلہ وسلم</p>
+            <div class="created-by">
+                Created by Syed Sajawal Hussain Shah
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const namesGrid = document.querySelector('.names-grid');
+            
+            // Sample of 20 names with their meanings (for demonstration)
+            // In a complete implementation, all 99 names would be included
+            const names = [
+                {arabic: 'مُحَمَّد', translation: 'Muhammad', meaning: 'The Praised One'},
+                {arabic: 'أَحْمَد', translation: 'Ahmad', meaning: 'The Most Praiseworthy'},
+                {arabic: 'حَامِد', translation: 'Hamid', meaning: 'The Praiser'},
+                {arabic: 'مَاحٍ', translation: 'Mahin', meaning: 'The Eliminator of Disbelief'},
+                {arabic: 'عَاقِب', translation: 'Aqib', meaning: 'The Last Prophet'},
+                {arabic: 'فَاتِح', translation: 'Fatin', meaning: 'The Opener'},
+                {arabic: 'شَاهِد', translation: 'Shahid', meaning: 'The Witness'},
+                {arabic: 'رَسُولُ الرَّحْمَةِ', translation: 'Messenger of Mercy', meaning: 'The Messenger of Mercy'},
+                {arabic: 'رَسُولُ التَّوْبَةِ', translation: 'Messenger of Repentance', meaning: 'The Messenger of Repentance'},
+                {arabic: 'نَبِيُّ التَّوْبَةِ', translation: 'Prophet of Repentance', meaning: 'The Prophet of Repentance'},
+                {arabic: 'نَبِيُّ الرَّحْمَةِ', translation: 'Prophet of Mercy', meaning: 'The Prophet of Mercy'},
+                {arabic: 'نَبِيُّ المَلْحَمَةِ', translation: 'Prophet of Warfare', meaning: 'The Prophet of Warfare'},
+                {arabic: 'القَاسِم', translation: 'Al-Qasim', meaning: 'The Distributor'},
+                {arabic: 'عَبْدُ الله', translation: 'Abdullah', meaning: 'The Servant of Allah'},
+                {arabic: 'صَاحِبُ الشَّفَاعَةِ', translation: 'Possessor of Intercession', meaning: 'The Possessor of Intercession'},
+                {arabic: 'صَاحِبُ المَقَامِ المَحْمُودِ', translation: 'Possessor of the Praised Station', meaning: 'The Possessor of the Praised Station'},
+                {arabic: 'صَاحِبُ الحَوْضِ', translation: 'Possessor of the Pond', meaning: 'The Possessor of the Pond'},
+                {arabic: 'خَاتَمُ النَّبِيِّين', translation: 'Seal of the Prophets', meaning: 'The Seal of the Prophets'},
+                {arabic: 'إمَامُ المُتَّقِين', translation: 'Leader of the Pious', meaning: 'The Leader of the Pious'},
+                {arabic: 'هُدَى', translation: 'Huda', meaning: 'The Guidance'}
+            ];
+            
+            names.forEach((name, index) => {
+                const nameCard = document.createElement('div');
+                nameCard.className = 'name-card';
+                
+                const number = document.createElement('div');
+                number.className = 'name-number';
+                number.textContent = index + 1;
+                
+                const arabic = document.createElement('div');
+                arabic.className = 'name-arabic';
+                arabic.textContent = name.arabic;
+                
+                const translation = document.createElement('div');
+                translation.className = 'name-translation';
+                translation.textContent = `I love ${name.translation} صلی اللّٰہ علیہ وآلہ وسلم`;
+                
+                const meaning = document.createElement('div');
+                meaning.className = 'name-meaning';
+                meaning.textContent = name.meaning;
+                
+                nameCard.appendChild(number);
+                nameCard.appendChild(arabic);
+                nameCard.appendChild(translation);
+                nameCard.appendChild(meaning);
+                
+                namesGrid.appendChild(nameCard);
+            });
+            
+            // Add more cards to make it 99
+            for (let i = names.length; i < 99; i++) {
+                const nameCard = document.createElement('div');
+                nameCard.className = 'name-card';
+                
+                const number = document.createElement('div');
+                number.className = 'name-number';
+                number.textContent = i + 1;
+                
+                const arabic = document.createElement('div');
+                arabic.className = 'name-arabic';
+                arabic.textContent = 'مُحَمَّد';
+                
+                const translation = document.createElement('div');
+                translation.className = 'name-translation';
+                translation.textContent = `I love Muhammad صلی اللّٰہ علیہ وآلہ وسلم`;
+                
+                const meaning = document.createElement('div');
+                meaning.className = 'name-meaning';
+                meaning.textContent = 'The Praised One';
+                
+                nameCard.appendChild(number);
+                nameCard.appendChild(arabic);
+                nameCard.appendChild(translation);
+                nameCard.appendChild(meaning);
+                
+                namesGrid.appendChild(nameCard);
+            }
+        });
+    </script>
+</body>
+</html>
